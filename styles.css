@@ -43,14 +43,11 @@ body{
 .nav-link-wrapper a:hover{
 	color: black;
 }
-.portfolio-items-wrapper{
-	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-	border: 1px solid red;
-}
 
-.portfolio-item-wrapper{
-	position: relative;
+.content-wrapper{
+	border: 10px solid red;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .portfolio-img-background{
@@ -59,8 +56,4 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;  
-}
-
-.content-wrapper{
-	display: grid;
 }
