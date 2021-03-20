@@ -2,11 +2,6 @@ body{
 	margin: 0;
 }
 
-.container{
-	display: grid;
-	grid-template-columns: 1fr;
-
-}
 
 .nav-wrapper{
 	display: flex;
@@ -44,14 +39,11 @@ body{
 .nav-link-wrapper a:hover{
 	color: black;
 }
-.portfolio-items-wrapper{
+
+.portfolio_wrapper{
 	display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-.portfolio-item-wrapper{
-	position: relative;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
 }
 
 .portfolio-img-background{
@@ -60,8 +52,4 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;  
-}
-
-.content-wrapper{
-	display: grid;
 }
