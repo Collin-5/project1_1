@@ -3,14 +3,14 @@ body{
 }
 
 .container{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	border: 5px solid blue;
 }
 
 .nav-wrapper{
 	display: flex;
 	justify-content: space-between;
 	padding: 38px;
+	border: 1px solid green;
 }
 .left-side{
 	display: flex;
@@ -46,7 +46,7 @@ body{
 .portfolio-items-wrapper{
 	display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+	border: 1px solid red;
 }
 
 .portfolio-item-wrapper{
