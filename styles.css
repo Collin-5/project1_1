@@ -44,10 +44,11 @@ body{
 	color: black;
 }
 
-.content-wrapper{
+.portfolio_wrapper{
 	border: 10px solid red;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
 }
 
 .portfolio-img-background{
