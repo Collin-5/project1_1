@@ -2,15 +2,11 @@ body{
 	margin: 0;
 }
 
-.container{
-	border: 5px solid blue;
-}
 
 .nav-wrapper{
 	display: flex;
 	justify-content: space-between;
 	padding: 38px;
-	border: 1px solid green;
 }
 .left-side{
 	display: flex;
@@ -45,10 +41,9 @@ body{
 }
 
 .portfolio_wrapper{
-	border: 10px solid red;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
+	grid-gap: 15px;
 }
 
 .portfolio-img-background{
